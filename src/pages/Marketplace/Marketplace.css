@@ -1,0 +1,55 @@
+.products {
+    padding: 1rem;
+    background-color: rgb(248, 246, 246);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+   
+}
+
+.filtering-section {
+    padding: 15px;
+}
+
+.filtering-section .filtering  {
+    padding: 5px;
+}
+
+.filtering-section .sorting  {
+    padding: 5px;
+}
+
+.filtering,
+.sorting {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  align-items: center;
+
+}
+
+.filtering label,
+.sorting label {
+  margin-bottom: 5px; 
+}
+
+.filtering input,
+.sorting input {
+  width: 20%;
+  padding: 10px;
+}
+
+#coordinatesnote{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: gray;
+    font-style: italic;
+}
+
+#filterButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }

@@ -1,0 +1,114 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.product-table th,
+.product-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+}
+
+.product-image {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+tr:hover {
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.product-table button {
+  padding: 8px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+
+.product-table button.edit {
+  background-color: yellow;
+  color: #333;
+}
+
+.product-table button.delete {
+  background-color: red;
+  color: white;
+}
+
+/* Product Management Container */
+.product-management {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+/* Add Product Form */
+.product-management h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-management form {
+  /* display: flex; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-management label {
+  flex: 0 0 30%;
+  max-width: 200px;
+  margin: 5px;
+  text-align: center;
+}
+
+.product-management input[type="text"],
+.product-management input[type="number"],
+.product-management textarea,
+.product-management select {
+  flex: 0 0 70%;
+  max-width: 300px;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+
+.product-management button {
+  flex: 0 0 100%;
+  max-width: 400px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-management button:hover {
+  background-color: #0056b3;
+}
